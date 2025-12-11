@@ -32,13 +32,14 @@
 
 
 /* ----- TYPING EFFECT ----- */
-   var typingEffect = new Typed(".typedText",{
-      strings : ["HR coordinator"],
-      loop : true,
-      typeSpeed : 100, 
-      backSpeed : 80,
-      backDelay : 2000
-   })
+var typingEffect = new Typed(".typedText", {
+    strings: ["HR Coordinator"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000
+});
+
 
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
@@ -116,6 +117,7 @@
 
 
   window.addEventListener('scroll', scrollActive)
+
 
 
 
